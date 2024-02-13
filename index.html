@@ -3,45 +3,58 @@
 
 <head>
     <title>Matthew Robertson - Portfolio</title>
-
     <link rel="icon" href="assets/img/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="html/my_resume.html">Resume</a></li>
-            <li><a href="html/my_fun_facts.html">Fun Facts</a></li>
-        </ul>
-    </nav>
-
     <header>
-        <h1>Matthew Robertson - Portfolio</h1>
+        <div class="header-logo">
+            <img src="assets/img/icon.ico" alt="Logo">
+        </div>
+        <nav class="header-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="html/my_resume.html">Resume</a></li>
+                <li><a href="html/my_fun_facts.html">Fun Facts</a></li>
+            </ul>
+        </nav>
+        <div class="header-cta">
+            <a>Hire Me</a>
+        </div>
     </header>
 
-    <section>
-        <img src="assets/img/headshot.jpg" alt="Matthew Robertson">
-        <blockquote>
-            <p>"Give someone a program, you frustrate them for a day; teach them how to program, you frustrate them for a lifetime."</p>
-            <p>-David Leinweber</p>
-        </blockquote>
-    </section>
+    <main>
+        <div class="title-container">
+            <div class="left-side">
+                <h1>Introduction</h1>
+                <p>
+                    My name is Matthew Robertson, a career consultant with Oakland University, currently persuing my undergraduate degree at Oakland University. 
+                    Prior to my career with Oakland University, I was a store manager at Dairy Queen. In the future, I would like to become a full-stack software 
+                    developer and work full-time with a company that can make a difference in the world. If you would like to learn more about me, you can check 
+                    <a href="html/my_resume.html">here</a> and <a
+                        href="html/my_fun_facts.html">here</a>!
+                    
+                </p>
+            </div>
+            <div class="right-side">
+                <img src="assets/img/headshot.jpg" alt="Me">
+                <blockquote>
+                    "Give someone a program, you frustrate them for a day; teach them how to program, you frustrate them for a lifetime."
+                    <br>
+                    <cite>David Leinweber</cite>
+                </blockquote>
+            </div>
+        </div>
 
-    <section>
-        <p>
-            My name is Matthew Robertson, a career consultant with Oakland University, currently persuing my undergraduate degree at Oakland University. 
-            Prior to my career with Oakland University, I was a store manager at Dairy Queen. In the future, I would like to become a full-stack software developer 
-            and work full-time with a company that can make a difference in the world. If you would like to learn more about me, you can check <a href="page2.html">here</a> and 
-            <a href="page3.html">here</a>!
-        </p>
-    </section>
-
-    <section>
-        <label for="progress">Degree Progress (91%):</label>
-        <progress id="progress" value="116" max="128"></progress>
-    </section>
-
+        <!-- Progress Bar -->
+        <h2>Degree Progress</h2>
+        <div class="progressBar">
+            <label for="degreeProgress">91%</label>
+            <progress id="degreeProgress" value="116" max="128">91%</progress>
+        </div>
+    </main>
+    
     <footer>
         <hr>
         <p>&copy; 2024 Matthew Robertson | Email: mrobertson@oakland.edu</p>
@@ -50,4 +63,5 @@
         </p>
     </footer>
 </body>
+
 </html>

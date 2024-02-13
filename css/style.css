@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #0a3f29, #00545f);
+}
+
+header, main, footer {
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    background-color: #333;
+    color: #fff;
+}
+
+.header-logo {
+    flex-grow: 1;
+}
+
+.header-logo img {
+    height: 50px;
+}
+
+.header-nav {
+    text-align: center;
+}
+
+.header-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-nav li {
+    padding: 0 25px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.header-nav a:hover {
+    color: #27ccb6;
+}
+
+.header-cta a {
+    padding: 10px 20px;
+    background-color: #b95411;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.header-cta a:hover {
+    background-color: #ffa600;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    height: auto;
+    overflow: auto;
+}
+
+.title-container .left-side {
+    margin-left: 20px;
+    width: 50vw;
+}
+
+.title-container p {
+    padding-right: 40px;
+}
+
+.title-container p a{
+    text-decoration: none;
+    color: #b95411;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.title-container p a:hover{
+    color: #ffa600;
+}
+
+.title-container .right-side {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.title-container img {
+    display: block; 
+    margin: 0 auto; 
+    max-width: 200px; 
+    border-radius: 25%; 
+}
+
+.progressBar progress {
+    width: 100%;
+    height: 20px;
+    border-radius: 25px;
+    border-color: #000;
+    border-style: solid;
+    border-width: 2px;
+    background: linear-gradient(to right, #0a3f29, #00545f);
+}
+
+.progressBar progress::-webkit-progress-bar {
+    border-radius: 20px;
+    background: linear-gradient(to right, #0a3f29, #00545f);
+}
+
+.progressBar progress::-webkit-progress-value {
+    border-radius: 20px;
+    background: #3a80f7;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffa600;
+}
+
+.education-experience {
+    background-color: #5cb88d;
+
+}
